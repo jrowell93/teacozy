@@ -1,73 +1,139 @@
+/*body and general styling*/
 body{
   background-color: black;
+  margin:0;
 }
-
-/* this is the header styling*/
-.header{
-
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    height: 69px;
-    background-color: black;
-    border-bottom: 1px solid seashell;
-    align-items: center;
-
-  }
-.logo{
-  padding: 10px;
-  height:50px;
-  width: auto;
-  text-align: left;
-}
-.navigation{
+h2,h3,
+h4,h5{
   font-family: Helvetica;
-  font-size: 22px;
   color: seashell;
-  text-align: right;
-}
-.navigation a{
   color: seashell;
-  text-decoration: underline;
 }
-.navigation span{
-  display: inline-block;
-  padding: 20px 10px;
-}
-/*end header styling*/
-
-/*begin main styling*/
-#main{
-  height: 700px;
-  width:1200px;
-  display:flex;
-  padding-top: 200px;
-  z-index: 5;
-
-}
-.backgroundimage{
-  background-image: url("resources/images/main.jpg");
-  background-color: transparent;
-}
-.banner{
-  width: 1200px;
-  height: auto;
-  position: absolute;
-  align-items: center;
+/*header styling*/
+header{
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  justify-content: space-between;
   background-color: black;
-  align-content; center;
-  /*display:inline-flex;*/
+  /*padding-bottom: 20px;*/
 }
-h2{
- font-family: Helvetica;
- color:seashell;
- text-align: center;
- /*align-content: center;*/
+.container{
+  display: flex;
 }
-h4{
+.container ul{
+  list-style: none;
+  display:inline-flex;
+  padding: 20px 10px;
+  align-items: flex-end;
+  align-items: center;
+}
+.container li{
+  padding: 5px;
+  align-items: center;
   font-family: Helvetica;
-  color:seashell;
-  text-align: center;
-  /*align-content: center;*/
+  color: seashell;
+  font-size: 22px;
+  font-weight: bold;
 
+}
+.container a{
+  text-align: right;
+  font-family: Helvetica;
+  color: seashell;
+  font-size: 22px;
+
+}
+.logo img{
+  height:50px;
+  padding: 10px;
+  align-items: center;
+  }
+nav{
+  padding-right: 20px;
+  background-color: black;
+}
+/*flex styling*/
+.container{
+  display:flex;
+}
+/*section style*/
+
+/*Main section styling*/
+#main{
+  /*background-image: url("../images/main.jpg");*/
+}
+#banner{
+}
+.banner h2{
+}
+
+/*Tea of the Month Section styling*/
+.tea-month img{
+  height:200px;
+  width:300px;
+}
+/*Locations styling*/
+.locations{
+  display:inline-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 980px;
+  height: 500px;
+}
+.locations h2{
+  font-family: Helvetica;
+  color: seashell;
+text-align: center;
+
+}
+.location-bg-container{
+  height: 500px;
+  background-image: url("../locations.jpg");
+  margin-top: 50px;
+}
+.locations-container{
+  height:auto;
+  width: 300px;
+  justify-content: space-between;
+
+}
+.locations-container-column{
+  flex-direction: column;
+}
+span{
+  font-family: Helvetica;
+  color: seashell;
+  font-size: 22px;
+  display: block;
+}
+.locations-container-column h3{
+  font-family: Helvetica;
+  color: seashell;
+}
+
+
+<!--DONE---------------------------------------------------------------------->
+/*Contact styling*/
+.contact{
+  height:200px;
+  width: 100%;
+}
+.contact-padding{
+  margin: 10px 0 55px;
+}
+.contact-bottom{
+  margin-bottom: 27.5px;
+  margin-top: 0px;
+}
+#center {
+  text-align: center;
+        }
+
+/*Footer styling*/
+footer h5{
+  padding-left: 20px;
+  text-align: left;
 }
