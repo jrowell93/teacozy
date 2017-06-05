@@ -36,7 +36,7 @@ header{
   font-family: Helvetica;
   color: seashell;
   font-size: 22px;
-  font-weight: bold;
+
 
 }
 .container a{
@@ -64,10 +64,18 @@ nav{
 /*Main section styling*/
 #main{
   /*background-image: url("../images/main.jpg");*/
+  justify-content: center;
 }
+h2,
+  h4{
+    justify-content: center;
+  }
 #banner{
+  justify-content: center;
 }
+
 .banner h2{
+  justify-content: center;
 }
 
 /*Tea of the Month Section styling*/
@@ -113,7 +121,6 @@ span{
   font-family: Helvetica;
   color: seashell;
 }
-
 
 <!--DONE---------------------------------------------------------------------->
 /*Contact styling*/
