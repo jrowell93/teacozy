@@ -4,52 +4,70 @@ body{
 
 /* this is the header styling*/
 .header{
-  height:69px;
-  width: 100%;
-  background-color: black;
-  position: fixed;
-  z-index: 10;
-  display:flex;
-  opacity: 0.9;
-  border-bottom: 1px solid seashell;
-  }
 
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+
+  }
 .logo{
   padding: 10px;
   height:50px;
   width: auto;
-
+  text-align: left;
 }
 .navigation{
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
+  text-align: right;
 }
 .navigation a{
   color: seashell;
   text-decoration: underline;
 }
+.navigation span{
+  display: inline-block;
+  padding: 20px 10px;
+}
 /*end header styling*/
 
 /*begin main styling*/
-.main{
-  background-image: url("resources/images/main.jpg")
+#main{
   height: 700px;
   width:1200px;
   display:flex;
-  z-index: 10;
-  position: relative;
   padding-top: 200px;
+  z-index: 5;
 
+}
+.backgroundimage{
+  background-image: url("resources/images/main.jpg");
+  background-color: transparent;
 }
 .banner{
   width: 1200px;
   height: auto;
   position: absolute;
   align-items: center;
+  background-color: black;
+  align-content; center;
+  /*display:inline-flex;*/
 }
 h2{
  font-family: Helvetica;
  color:seashell;
- position: absolute;
+ text-align: center;
+ /*align-content: center;*/
+}
+h4{
+  font-family: Helvetica;
+  color:seashell;
+  text-align: center;
+  /*align-content: center;*/
+
 }

@@ -3,40 +3,111 @@
     <title> Tea Cozy </title>
       <link href="resources/css/style.css" type="text/css" rel="stylesheet">
 </head>
-<body>
-  <!--this is the header section of the website-->
-  <div class="header">
-      <img class="logo" src="resources/images/logo.png"/>
-    <div class="navigation">
-        <a href="mission">Mission</a>
-        <a href="featured-tea">Featured Tea</a>
-        <a href="locations">Locations</a>
-      </div> <!--ends nav div-->
-    </div> <!--ends main div-->
-<!--END HEADER AREA--------------------------------->
+<body class="no-margin">
+
+<!--this is the header section of the website-->
+  <header class="container">
+      <div class="logo"
+      <img src="./resources/images/logo.png">
+      </div>
+    <nav class="container">
+        <ul>
+          <li><a href="#mission">Mission</a></li>
+            <li><a href="#featured-tea">Featured Tea</a></li>
+              <li><a href="#locations">Locations</a></li>
+          </ul>
+      </nav> <!--ends nav div-->
+   </header> <!--ends main div-->
+<!--end header area--------------------------------->
 
 <!--begin main area--------------------------------->
-<div class="main">
-  <div class="banner">
-      <h3>Our Mission</h3>
-      <p>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</p>
-   </div> <!--ends banner div-->
+<div id="main" class="container">
+    <div id="banner" class="container top padding column">
+        <h2 class="no-margin">Our Mission</h2>
+        <h4 class="no-margin">Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+   </div><!--ends banner div-->
 </div> <!--ends main div-->
-<!--END MAIN AREA------------------------------------>
+<!--end main area------------------------------------>
 
+<!--begin tea of the month section---->
+<section class="flex-container column"> <!--wraps around tea, locations, contact-->
+<div id="featured" class="tea-month">
+  <h2>Tea of the Month</h2>
+    <h4>What's Steeping at The Tea Cozy?</h4>
+  <div class="teas">
 
+      <div class="tea-container">
+          <img src="./resources/images/berry-blitz.jpg">
+              <h4>Fall Berry Blitz Tea</h4>
+      </div>
 
+      <div class="tea-container">
+          <img src="./resources/images/spiced-rum.jpg">
+              <h4>Spiced Rum Tea</h4>
+      </div>
 
+      <div class="tea-container">
+          <img src="./resources/images/donuts.jpg">
+              <h4>Seasonal Donuts</h4>
+      </div>
 
+      <div class="tea-container">
+          <img src="./resources/images/myrtle-ave.jpg">
+              <h4>Myrtle Avenue Tea</h4>
+      </div>
 
+      <div class="tea-container">
+          <img src="./resources/images/bedford-bizarre.jpg">
+              <h4>Bedford Bizarre Tea</h4>
+      </div>
 
+      </div>
+   </div>
+ </div>
+<!--end tea of the month section-->
 
+<!--Locations Section---->
+  <div class="locations" class="location-bg container">
+      <h2>Locations</h2>
+    <div class="locations container">
 
+      <div class="location container column">
+        <h3 class="no-margin">Downtown</h3>
+          <span>384 West 4th St</span>
+          <span>Suite 108</span>
+          <span>Portland, Maine</span>
+      </div>
 
+      <div class="location container column">
+        <h3 class="no-margin">East Bayside</h3>
+          <span>3433 Phiserman's Avenue</span>
+          <span>(Northwest Corner)</span>
+          <span>Portland, Maine</span>
+      </div>
 
+      <div class="location container column">
+        <h3 class="no-margin">Oakdale</h3>
+          <span>515 Crescent Ave</span>
+          <span>Second Floor</span>
+          <span>Portland, Maine</span>
+      </div>
 
+    </div>
+  </div>
+</div>
+<!--end locations section-->
 
-
-
+<!--start contact section-->
+  <div class="contact">
+    <h2>The Tea Cozy</h2>
+      <h5>contact@theteacozy.com</h5>
+      <h5>917-555-8904</h5>
+  </div>
+</section>
+<!--end contact and also end section-->
+<!--begin footer--->
+<footer class="top-padding">
+  <h5>&copy; 2017 The Tea Cozy</h5>
+</footer>
 </body>
 </html>
