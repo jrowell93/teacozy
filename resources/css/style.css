@@ -1,0 +1,55 @@
+body{
+  background-color: black;
+}
+
+/* this is the header styling*/
+.header{
+  height:69px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  z-index: 10;
+  display:flex;
+  opacity: 0.9;
+  border-bottom: 1px solid seashell;
+  }
+
+.logo{
+  padding: 10px;
+  height:50px;
+  width: auto;
+
+}
+.navigation{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+.navigation a{
+  color: seashell;
+  text-decoration: underline;
+}
+/*end header styling*/
+
+/*begin main styling*/
+.main{
+  background-image: url("resources/images/main.jpg")
+  height: 700px;
+  width:1200px;
+  display:flex;
+  z-index: 10;
+  position: relative;
+  padding-top: 200px;
+
+}
+.banner{
+  width: 1200px;
+  height: auto;
+  position: absolute;
+  align-items: center;
+}
+h2{
+ font-family: Helvetica;
+ color:seashell;
+ position: absolute;
+}
