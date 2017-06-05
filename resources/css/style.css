@@ -59,25 +59,46 @@ nav{
 .container{
   display:flex;
 }
+#main
+{
+  justify-content: center;
+}
+
+#banner{
+  justify-content: space-around;
+}
+
 /*section style*/
 
 /*Main section styling*/
 #main{
-  /*background-image: url("../images/main.jpg");*/
-  justify-content: center;
+  height:700px;
+  width:1200px;
+  background-image: url("../images/main.jpg");
+  z-index: 5;
 }
-h2,
-  h4{
-    justify-content: center;
-  }
 #banner{
+  background-color: black;
+  height:70px;
+  width:1200px;
+  display: inline-flex;
+  flex-direction: column;
   justify-content: center;
-}
+  align-items: center;
+  z-index: 10;
+  margin-top: 300px;
 
+}
 .banner h2{
-  justify-content: center;
+  
+
+}
+.banner h4{
+
 }
 
+
+/*------------------------------------------------------------/*
 /*Tea of the Month Section styling*/
 .tea-month img{
   height:200px;
