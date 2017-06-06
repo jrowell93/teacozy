@@ -21,7 +21,7 @@ header{
   border-bottom: 1px solid seashell;
   width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   justify-content: space-between;
   background-color: black;
   /*padding-bottom: 20px;*/
@@ -81,13 +81,13 @@ nav{
   height:700px;
   width:1200px;
   background-image: url("../images/main.jpg");
-  z-index: 5;
+  z-index: 3;
 }
 #banner{
   background-color: black;
   height:70px;
   width:1200px;
-  z-index: 10;
+  z-index: 4;
   margin-top: 300px;
   display: flex;
   justify-content: space-between;
@@ -132,12 +132,17 @@ nav{
 
 #featured h2{
   text-align: center;
-  margin-left: auto;
+  margin-left: 120px;
 }
-
+#featured h4{
+  text-align: center;
+  /*margin-left: 120px;*/
+}
 
 .second-line{
   text-align: center;
+  margin-left: 120px;
+
 }
 
 .teas{
@@ -153,22 +158,21 @@ nav{
 .tea-container{
   width:300px;
   height:300px;
-  margin-right:15px;
+  margin: auto;
   text-align:center;
+
 }
 
 .tea-picture{
   height: 200px;
   width: 300px;
   padding-bottom: 10px;
+  margin: auto;
 }
 
 
 
-.teas h4{
-  margin-top: 10px;
-  padding-left: 20px;
-}
+
 
 
 
@@ -235,6 +239,7 @@ span{
 }
 #center {
   text-align: center;
+  margin-left: 200px;
         }
 
 /*Footer styling*/
