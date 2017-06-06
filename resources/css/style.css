@@ -182,30 +182,29 @@ nav{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*-------------------------------------------------------------/*
 /*Locations styling*/
-.locations{
-  display:flex;
-  flex-direction: row;
-  width: 980px;
+#locations{
+  width: 1000px;
   height: 500px;
-  background-image: url ("../images/locations.jpg");
+  background-image: url("../images/locations.jpg");
+  border: 3px solid blue;
+  display:flex;
+  justify-content: space-around;
 }
-.locations h2{
+#locations h2{
   font-family: Helvetica;
   color: seashell;
   text-align: center;
+}
+#locations span{
+  margin: 20px;
+}
+.singlelocation{
+  width: 300px;
+  height:300px;
+  border: 3px solid green;
+  margin: 20px;
 
 }
 .singlelocation h3, p{
@@ -213,12 +212,14 @@ nav{
   color: seashell;
   align-items: center;
 }
-.locations-container{
-  height:auto;
+/*.locations-container{
+  height:300px;
   width: 300px;
-  justify-content: space-between;
-
-}
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border: 3px solid red;
+}*/
 .locations-container-column{
   flex-direction: column;
 }
