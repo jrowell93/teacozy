@@ -2,6 +2,7 @@
 body{
   background-color: black;
   margin:0;
+  text-align: center;
 }
 h2,h3,
 h4,h5{
@@ -22,7 +23,7 @@ header{
   width: 100%;
   position: fixed;
   z-index: 10;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
   background-color: black;
   /*padding-bottom: 20px;*/
 }
@@ -67,7 +68,7 @@ nav{
 }
 #mission
 {
-  justify-content: center;
+  /*justify-content: center;*/
 }
 
 /*#banner{
@@ -82,17 +83,21 @@ nav{
   width:1200px;
   background-image: url("../images/main.jpg");
   z-index: 3;
+  align-items: center;
 }
 #banner{
   background-color: black;
   height:70px;
   width:1200px;
   z-index: 4;
-  margin-top: 300px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
+.bannertext{
+  height:70px;
+  width:1200px;
+  font-family: Helvetica;
+  color:seashell;
+}
+
 .main h2{
   display: block;
   font-weight: bold;
