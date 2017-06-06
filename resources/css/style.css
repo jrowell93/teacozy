@@ -87,10 +87,10 @@ nav{
   align-items: center;
   z-index: 10;
   margin-top: 300px;
-
 }
 .banner h2{
-  
+
+
 
 }
 .banner h4{
@@ -100,10 +100,66 @@ nav{
 
 /*------------------------------------------------------------/*
 /*Tea of the Month Section styling*/
-.tea-month img{
-  height:200px;
-  width:300px;
+#featured{
+  display: inline-flex;
+  padding: 50px 20px;
 }
+
+.flex-container-column{
+}
+
+#featured h2{
+  text-align: center;
+  margin-left: auto;
+}
+
+
+.second-line{
+  text-align: center;
+}
+
+.teas{
+  width: 1000px;
+  height:500px;
+  flex-wrap: wrap;
+  margin: 0 15px;
+
+}
+
+
+.tea-container{
+  width:300px;
+  height:300px;
+  flex-wrap: wrap;
+}
+
+
+
+.tea-picture{
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+
+
+
+.teas h4{
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------/*
 /*Locations styling*/
 .locations{
   display:inline-flex;
