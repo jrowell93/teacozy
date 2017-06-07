@@ -205,12 +205,12 @@ nav{
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  padding-top: 50px;
 }
 }
-#locations2 h2{
+#locations h2{
   font-family: Helvetica;
   color: seashell;
-
 }
 #locations2 span{
   margin: 20px;
