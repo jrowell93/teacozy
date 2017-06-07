@@ -16,6 +16,8 @@ main{
   margin-left: 30px;
   margin-right: 30px;
 }
+/*flex styling*/
+
 /*header and nav styling****************************************************/
 header{
   height: 69px;
@@ -188,37 +190,52 @@ nav{
   width: 1000px;
   height: 500px;
   background-image: url("../images/locations.jpg");
-  border: 3px solid blue;
-  display:flex;
+  /*border: 3px solid blue;*/
+  /*display:flex;*/
   justify-content: space-around;
+  align-items: center;
+  margin-left: 100px;
+  opacity: 0.9;
 }
 #locations h2{
+  font-size: 33px;
+}
+#locations2{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+}
+#locations2 h2{
   font-family: Helvetica;
   color: seashell;
-  text-align: center;
+
 }
-#locations span{
+#locations2 span{
   margin: 20px;
 }
+
 .singlelocation{
   width: 300px;
   height:300px;
-  border: 3px solid green;
   margin: 20px;
+  background-color: black;
+  opacity: 0.9;
 
 }
 .singlelocation h3, p{
   font-family: Helvetica;
   color: seashell;
-  align-items: center;
+  font-size: 22px;
 }
 /*.locations-container{
-  height:300px;
-  width: 300px;
-  display: flex;
-  flex-direction: row;
+  height:500px;
+  width: 1000px;
   background-color: white;
   border: 3px solid red;
+  margin-right: 200px;
+  margin-left: 50px;
 }*/
 .locations-container-column{
   flex-direction: column;
